@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('Lobster-Regular.ttf') format('truetype'); 
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f4f4f4; 
+    color: #333; 
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center; 
+    margin-bottom: 40px; 
+}
+
+header h1 {
+    font-family: 'Lobster', cursive; 
+    font-size: 48px; 
+    color: #e63946;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header h2 {
+    font-size: 24px; 
+    color: #1d3557; 
+    margin-top: 10px; 
+    font-weight: 400; 
+}
+
+.lyrics {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 30px; 
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); 
+}
+
+h2 {
+    font-size: 28px; 
+    text-align: center; 
+    margin-bottom: 30px; 
+    color: #1d3557; 
+}
+
+.intro {
+    font-size: 20px; 
+    font-weight: 400; 
+    color: #457b9d; 
+    margin-bottom: 20px; 
+    font-style: italic; 
+}
+
+.chorus {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #e63946; 
+    margin-bottom: 25px; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    transition: color 0.3s ease; 
+}
+
+.chorus:hover {
+    color: #d62839; 
+}
+
+.verse {
+    font-size: 18px; 
+    font-style: italic; 
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+footer {
+    text-align: center; 
+    margin-top: 40px; 
+    font-size: 14px; 
+    color: #777; 
+    border-top: 1px solid #e63946; 
+    padding-top: 10px; 
+}
